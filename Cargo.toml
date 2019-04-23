@@ -1,0 +1,14 @@
+[package]
+name        = "unisearch"
+version     = "0.0.0"
+description = "Utility for searching unicode character descriptions"
+authors     = ["Casey Rodarmor <casey@rodarmor.com>"]
+edition 	  = "2018"
+license     = "CC0-1.0"
+repository  = "https://github.com/casey/unisearch"
+
+[dependencies]
+rand          = "0.6.5"
+regex         = "1.1.6"
+structopt     = "0.2.15"
+unicode-width = "0.1.5"
